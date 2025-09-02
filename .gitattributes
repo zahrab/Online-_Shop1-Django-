@@ -1,0 +1,17 @@
+# Force Python as main language
+*.py linguist-language=Python
+
+# Ignore migrations (not real code)
+*/migrations/* linguist-detectable=false
+
+# Ignore HTML templates, CSS, JS (optional)
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Ignore static/media files
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.gif linguist-detectable=false
+*.svg linguist-detectable=false
